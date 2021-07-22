@@ -1,0 +1,156 @@
+@font-face {
+  font-family: PressStart;
+  src: url('PressStart.ttf');
+}
+
+/* RESET */
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+  display: block;
+}
+
+address,
+article,
+aside,
+blockquote,
+body,
+cite,
+div,
+dl,
+dt,
+dd,
+figcaption,
+figure,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+html,
+img,
+li,
+main,
+nav,
+ol,
+p,
+section,
+span,
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(0deg, #e0a347cc, #ff990011 70.71%),
+    linear-gradient(120deg, #b45acfcc, #ca0ad111 70.71%),
+    linear-gradient(240deg, #53ddbfcc, #04cfa311 70.71%);
+  font-family: PressStart;
+}
+
+main {
+  height: 100vh;
+  min-height: 100vh;
+  color: #474646fd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+main h1 {
+  font-size: 2rem;
+}
+
+main .scores {
+  width: 300px;
+  margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+main .scoreItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+main .scoreTitle {
+  padding: 1rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+main .score {
+  font-size: 2rem;
+}
+
+main .canvas {
+  background-color: #f8f8fa;
+  -webkit-box-shadow: 0 0 5px #6b6b6bb4;
+  box-shadow: 0 0 5px #6b6b6bb4;
+}
+
+main .playBtn {
+  border: 2px solid #6b6b6bd3;
+  color: #464646d3;
+  background-color: white;
+  margin: 2rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: PressStart;
+}
+
+main .playBtn:hover {
+  -webkit-box-shadow: 0 0 5px #6b6b6bb4;
+  box-shadow: 0 0 5px #6b6b6bb4;
+}
+
+main .playBtn:active {
+  border: 2px solid black;
+  color: black;
+}
+/*# sourceMappingURL=styles.css.map */
